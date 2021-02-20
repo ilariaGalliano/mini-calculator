@@ -1,0 +1,56 @@
+/* General styles */
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* Styles calculator */
+
+h1{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 34px;
+}
+p{
+    font-size: 26px;
+    color: #fff;
+}
+.calc-background{
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+    background: #835cbd;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0, .4);
+}
+.numbers{
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    padding: 0 24px;
+    font-size: 16px;
+    background: rgba(255,255,255, .75);
+    border: 0;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0, .4);
+    outline: none;
+    border-radius: 3px;
+    text-align: center;
+    transition: background-color .4s;
+}
+.operation{
+    font-size: 16px;
+    background: rgba(255,255,255, .75);
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 15px 10px -10px rgba(0,0,0, .4);
+    outline: none;
+    transition: background-color .4s;
+    margin-left: 15px;
+    padding: 15px 20px;
+}
